@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora Multifuncional</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="calculadora">
+      <h1>Calculadora Multifuncional</h1>
+
+      <label for="numero1">Número 1 (ou valor principal)</label>
+      <input type="number" id="numero1" />
+
+      <label for="numero2">Número 2 (expoente, base ou percentual)</label>
+      <input type="number" id="numero2" />
+
+      <div class="botoes">
+        <button onclick="Somar()">Somar</button>
+        <button onclick="Subtrair()">Subtrair</button>
+        <button onclick="Multiplicar()">Multiplicar</button>
+        <button onclick="Divisao()">Divisão</button>
+        <button onclick="Porcentagem()">Porcentagem</button>
+        <button onclick="Potencia()">Potência</button>
+        <button onclick="RaizQuadrada()">Raiz Quadrada</button>
+        <button onclick="Fatorial()">Fatorial</button>
+        <button onclick="Logaritmo()">Logaritmo</button>
+        <button onclick="Seno()">Seno (deg)</button>
+        <button onclick="Cosseno()">Cosseno (deg)</button>
+        <button onclick="Tangente()">Tangente (deg)</button>
+      </div>
+
+      <h2 id="resultado">Resultado:</h2>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
